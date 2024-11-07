@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Interativa</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Biblioteca Interativa</h1>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#books">Livros</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore o Universo dos Livros</h2>
+    <p>Busque, filtre e descubra novas histórias!</p>
+    <input type="text" id="search" placeholder="Procure por um título...">
+    <div class="filters">
+      <button data-genre="todos">Todos</button>
+      <button data-genre="fantasia">Fantasia</button>
+      <button data-genre="ficcao">Ficção Científica</button>
+      <button data-genre="drama">Drama</button>
+      <button data-genre="biografia">Biografia</button>
+    </div>
+  </section>
+
+  <section id="books" class="books">
+    <h2>Livros Recomendados</h2>
+    <div class="book-list">
+      <!-- Livros serão gerados aqui dinamicamente pelo JS -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contato</h2>
+    <p>Envie sugestões ou dúvidas para: <a href="mailto:biblioteca@example.com">biblioteca@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Biblioteca Interativa. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
